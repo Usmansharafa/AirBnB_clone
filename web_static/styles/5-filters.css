@@ -1,0 +1,47 @@
+.filters {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    position: relative;
+}
+
+.locations, .amenities {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+}
+
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+
+.filters h3 {
+    margin-bottom: 0;
+    margin-left: 15%;
+}
+
+.filters h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.filters button {
+    font-size: 18px;
+    background-color:  #FF5A5F;
+    color: #FFFFFF;
+    width: 20%;
+    height: 48px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -24px;
+}
+
+.filters button:hover {
+    opacity: 90%;
+}
