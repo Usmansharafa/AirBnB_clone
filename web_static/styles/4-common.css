@@ -3,11 +3,14 @@ body {
   padding: 0;
   color: #484848;
   font-size: 14px;
+  box-sizing: border-box;
   font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-h4 {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
