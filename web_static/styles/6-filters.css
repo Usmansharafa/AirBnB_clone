@@ -9,7 +9,7 @@
 }
 
 .locations,
-.amenities {
+.filters .amenities {
   width: 25%;
   height: 100%;
   position: relative;
@@ -23,11 +23,11 @@
   display: block;
 }
 
-.amenities:hover .popover {
+.filters .amenities:hover .popover {
   display: block;
 }
 
-.amenities .popover {
+.filters .amenities .popover {
   transform: translateX(-1px);
 }
 
